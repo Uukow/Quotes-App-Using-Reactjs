@@ -1,0 +1,55 @@
+.all {
+  font-family: poppins;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-card {
+  -webkit-box-shadow: 3px 5px 35px 0px rgba(0, 0, 0, 0.88);
+  box-shadow: 3px 5px 35px 0px rgba(0, 0, 0, 0.88);
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quote-text {
+  font-size: 1.2em;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.quote-author {
+  text-align: right;
+  font-size: 1em;
+  font-weight: bold;
+  color: rgba(0, 0, 119);
+}
+.next-quote-button {
+  padding: 10px 30px;
+  border: none;
+  background-color: rgb(0, 0, 119);
+  color: #ffffff;
+  font-weight: 700;
+  font-family: poppins;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.next-quote-button:hover {
+  padding: 10px 30px;
+  border: none;
+  background-color: #ddd4d4;
+  color: rgb(0, 0, 119);
+  font-weight: 700;
+  font-family: poppins;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  cursor: pointer;
+}
